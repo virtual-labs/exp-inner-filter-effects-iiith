@@ -1,1 +1,5 @@
-### Aim of the experiment
+The fluorescence spectral intensity as well as spectral distribution of a fluorophore depend on its concentration. Various kinds of effects and interactions come into play with the increasing fluorophore concentration which affect the fluorescence spectra in many ways, such as via self-absorption, concentration quenching, etc. In general, the fluorescence intensity first increases with the concentration of the fluorophore and then decreases after reaching a maximum. The fluorophore concentration effects vary depending on the precise geometry of the sample illumination versus emission beam recording. For analytical applications, a linear relationship between fluorescence intensity and concentration is desirable. It is therefore very important to study the fluorophore concentration effects on their fluorescence spectral characteristics.
+
+#### Objective
+
+To demonstrate how the fluorescence spectrum of a fluorophore is affected by the fluorophore concentration. 
