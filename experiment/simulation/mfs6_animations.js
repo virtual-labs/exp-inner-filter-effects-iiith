@@ -133,7 +133,7 @@ function moveCuvette(){
                         if(angle>=40){
                             clearInterval(id);
                             elem.src="images/cuvette-with-sol.png";
-                            quartz.attr("src", "../../common_images/quartz-cuvette.png");
+                            quartz.attr("src", "common_images/quartz-cuvette.png");
                         }
                         $("#quartz_cuvette").rotate(angle);
                         },10); 
@@ -254,7 +254,7 @@ function movePipette() {
                 count++; }, 1000);
         }
         else if(step_no == 5 && count == 5){
-            elem.src = "../../common_images/pipette.png";
+            elem.src = "common_images/pipette.png";
             $("#quartz_cuvette").attr("src", "images/quartz-cuv-with-sol.png");
             step_no ++;
             setTimeout(function(){ 
@@ -314,8 +314,8 @@ function hideInstruction() {
       else if(step_no ==6 ||step_no == 17){
             $("#computerimage").remove();
             setInterval("turnOn()", 250);
-            images[0] = "../../common_images/spec_fluormeter.png";
-            images[1] = "../../common_images/spec_fluormeter.png";
+            images[0] = "common_images/spec_fluormeter.png";
+            images[1] = "common_images/spec_fluormeter.png";
             changeParameters();
             document.getElementById("demo").innerHTML = "Turn on the spectrofluorimeter by clicking on the power button. In real operation, it takes approx. 30 min for initialization of the instrument. ";
             cursorPointers('start', 'power_trans_button');

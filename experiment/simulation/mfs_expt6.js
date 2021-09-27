@@ -193,8 +193,8 @@ function showClock(){
         }
         else if(step_no == 7 || step_no==18){
             //Continuously change the spectroflourimeter images to get the blinking effect
-            images[0] = "../../common_images/specfluor_on_no_redLight.png";
-            images[1] = "../../common_images/specfluor_on_redLight.png";
+            images[0] = "common_images/specfluor_on_no_redLight.png";
+            images[1] = "common_images/specfluor_on_redLight.png";
             clck();
             document.getElementById("demo").innerHTML = "Open the lid of the sample chamber of the spectroflourimeter by clicking on the lid for placing the sample in the cell-holder."
             //After 10 secs dispose clock
@@ -217,24 +217,24 @@ function removeClock() {
 function spectrophotometer(){
         if (sol_name == 0 && step_no == 8){
             // Replace the spectrophotometer images with the open spectrophotometer images
-            images[0] = "../../common_images/spec_open.png";
-            images[1] = "../../common_images/spec_open1.png";
+            images[0] = "common_images/spec_open.png";
+            images[1] = "common_images/spec_open1.png";
             document.getElementById("demo").innerHTML = "Click on the cuvette top place it in the sample holder. One has to use pure solvent as the sample bank or reference in this measurement. Here a double beam spectrophotometer is shown.";
             step_no++;
             cursorPointers('spectrolid_trans_button', 'quartz_cuvette');
         }
         else if(sol_name == 0 && step_no == 10){
             // Replace the spectrophotometer images with the closed spectrophotmeter images.
-            images[0] = "../../common_images/spec_close.png";
-            images[1] = "../../common_images/spec_close1.png";
+            images[0] = "common_images/spec_close.png";
+            images[1] = "common_images/spec_close1.png";
             document.getElementById("demo").innerHTML = "Open the measurement set-up screen by clicking on the absorption measurement icon on the computer monitor. ";
             step_no++;
             cursorPointers('spectrolid_trans_button1', 'comp_trans_button');
         }
         else if(step_no == 14){
             // Replace the spectrophotometer images with the open spectrophotometer images
-            images[0] = "../../common_images/spec_open.png";
-            images[1] = "../../common_images/spec_open1.png";
+            images[0] = "common_images/spec_open.png";
+            images[1] = "common_images/spec_open1.png";
             document.getElementById("demo").innerHTML = "To take the cuvette out of the sample chamber, first click on the sample chamber lid to open it and then on the cuvette. ";
             step_no++;
 
@@ -268,16 +268,16 @@ function spectrophotometer(){
         else if(step_no == 19||step_no == 8){
             // click on the lid for placing the sample in the cell-holder.
             // Replace the spectroflourimeter images with the open spectrophotometer images
-            images[0] = "../../common_images/specfluor_open.png";
-            images[1] = "../../common_images/specfluor_open1.png";
+            images[0] = "common_images/specfluor_open.png";
+            images[1] = "common_images/specfluor_open1.png";
             document.getElementById("demo").innerHTML = "Click on the spectrophotometric quartz cuvette to transfer its content into an all-side-transparent quartz cuvette of path length 1 cm ×1 cm for the fluorescence measurement.";
             step_no++;
             cursorPointers('spectrolid_trans_button', 'quartz_cuvette');
         }
         else if((step_no == 21 && count == 13)||(step_no == 10)){
             // Replace the spectrophotometer images with the closed spectrophotmeter images.
-            images[0] = "../../common_images/specfluor_on_redLight.png";
-            images[1] = "../../common_images/specfluor_on_no_redLight.png";
+            images[0] = "common_images/specfluor_on_redLight.png";
+            images[1] = "common_images/specfluor_on_no_redLight.png";
             document.getElementById("demo").innerHTML = "Open the instrument set-up screen by clicking on the fluorescence measurement icon on the computer monitor.";
             step_no++;
             cursorPointers('spectrolid_trans_button1', 'comp_trans_button');
