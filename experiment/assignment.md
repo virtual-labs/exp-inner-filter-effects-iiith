@@ -1,4 +1,4 @@
-#### Pre-Experiment
+#### Pre-Assignment
 
 1. Mention three different ways by which the fluorophore concentration can affect the fluorescence spectral characteristics.
 2. Mention two ways by which one can avoid inner filter effects.
@@ -7,7 +7,7 @@
 5. What kinds of illumination geometries are useful for fluorescence studies of optically dense samples or highly scattering solutions?
 6. What kind of illumination geometry should one use to minimize the excitation inner filter effect?
 
-Post-Experiment
+#### Post-Assignment
 
 1. Why should one start the measurement with the lowest concentration first and go on to the next higher concentration while doing the measurement?
 2. Why should one always rinse the cuvette with the experimental solution prior to filling up of the cuvette with the experimental solution?
