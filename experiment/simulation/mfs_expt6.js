@@ -255,8 +255,8 @@ function spectrophotometer(){
         }
         else if(step_no == 16 && count == 11){
             // Replace the spectrophotometer images with the closed spectrophotmeter images.
-            images[0] = "../../common_images/spec_close.png";
-            images[1] = "../../common_images/spec_close1.png";
+            images[0] = "common_images/spec_close.png";
+            images[1] = "common_images/spec_close1.png";
             document.getElementById('start').innerHTML = "Start Fluorescence measurement";
             document.getElementById("demo").innerHTML = "Click on the pop-up: 'Start Fluorescence measurement'";
             setTimeout( function(){
